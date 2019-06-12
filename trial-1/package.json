@@ -1,0 +1,21 @@
+{
+	"name": "bounce-trial",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "node test.js",
+		"dev": "node bounce/dev.js",
+		"build": "node bounce/call-build.js",
+		"serve": "node bounce/call-serve.js"
+	},
+	"author": "Vehmloewff",
+	"license": "MIT",
+	"dependencies": {
+		"@includable/open-browser": "^1.1.0",
+		"chalk": "^2.4.2",
+		"express": "^4.17.1",
+		"minify": "^4.1.1",
+		"try-to-catch": "^1.1.1"
+	}
+}

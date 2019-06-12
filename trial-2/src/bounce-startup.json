@@ -1,0 +1,5 @@
+{
+	"title": "Bounce Example",
+	"bootstrap": "./src/components/page.js",
+	"description": "A starter template for bounce"
+}
