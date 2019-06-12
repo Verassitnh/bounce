@@ -1,0 +1,17 @@
+{
+	"name": "bounce-example",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "node ./bounce/call-build.js",
+		"dev": "npm run build"
+	},
+	"author": "Vehmloewff",
+	"license": "MIT",
+	"dependencies": {
+		"chalk": "^2.4.2",
+		"ora": "^3.4.0"
+	}
+}
